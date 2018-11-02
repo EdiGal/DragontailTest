@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/papaparse.js"></script>
+    <script src="js/vue.js"></script>
+    <style>
+        input {
+            margin: 5px;
+        }
+        th, td {
+            margin: 5px;
+            align-content: center;
+            text-align: center;
+        }
+        thead {
+            margin-bottom: 15px;
+        }
+    </style>
+    <title>DragonTail Test</title>
+</head>
+<body>
+    <div id="upload_csv" style="margin: 2%;">
+        <input id="csv_file" type="file" @change="upload" accept=".csv"/> <br>
+    </div>
+
+    <div id="app">
+        <span v-html="mytable"></span>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

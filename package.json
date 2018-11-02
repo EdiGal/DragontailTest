@@ -1,0 +1,26 @@
+{
+  "name": "dragontailtest",
+  "version": "1.0.0",
+  "description": "Test to Dragontail company",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdiGal/DragontailTest.git"
+  },
+  "author": "EdGal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdiGal/DragontailTest/issues"
+  },
+  "homepage": "https://github.com/EdiGal/DragontailTest#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
